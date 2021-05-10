@@ -1,0 +1,12 @@
+FROM alpine:latest
+
+# Install
+RUN apk add --no-cache ansible bash
+
+RUN mkdir /root/ansible
+
+WORKDIR /root/ansible
+
+ENV HOME /root/
+
+CMD bash 

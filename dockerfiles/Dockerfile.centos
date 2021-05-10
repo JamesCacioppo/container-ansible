@@ -1,0 +1,17 @@
+FROM centos:7
+
+# Install
+RUN yum -y update && \
+  yum -y install epel-release && \
+  yum -y install python3 && \
+  yum -y install yum-utils sshpass && \
+  yum -y install ansible && \
+  yum clean all
+
+RUN mkdir /root/ansible
+
+WORKDIR /root/ansible
+
+ENV HOME /root/
+
+CMD bash 
