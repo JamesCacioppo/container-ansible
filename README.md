@@ -4,5 +4,5 @@ This is a base container with Ansible 2.10 and minimal required dependencies.  T
 
 ## Specs
 * Alpine 3.13.5
-* Ansible 2.10
+* Ansible 2.10.5
 * Python 3.6
