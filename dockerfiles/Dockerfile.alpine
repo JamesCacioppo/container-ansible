@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 # Install
-RUN apk add --no-cache ansible bash
+RUN apk add --no-cache ansible bash openssh
 RUN ansible-galaxy collection install community.general
 
 RUN mkdir /root/ansible
