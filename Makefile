@@ -5,7 +5,7 @@ SHELL := /bin/bash
 ##########
 
 OS_DIST = alpine
-SEMVER_TAG = 0.3.1
+SEMVER_TAG = 0.3.0
 DOCKER_TAG = ${OS_DIST}-${SEMVER_TAG}
 WORK_DIR = $(shell pwd)
 
